@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>   
+ <head>  
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title> KASAMA COLLEGE OF EDUCATION</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100&display=swap" rel="stylesheet">
+
+
+
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+ </head>
+
+ <body>   
+    <!---------------- Rename   the   Header class  to  sub-header ----------------------------->
+    <section class="sub-header">  
+      <nav>  
+         <a href="course.html">  <img src="images/LOGOO.png">  </a>
+         <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>   
+               <li>  <a href="index.html">HOME </a></li>
+               <li>  <a href="about.html">ABOUT </a></li>
+               <li>  <a href="course.html">COURSE </a></li>
+               <li>  <a href="blog.html">BLOG </a></li>
+               <li>  <a href="contact.html">CONTACT </a></li>
+            </ul>
+
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     
+<h1>About  Us </h1>
+
+    </section>
+    <!----------About   Us  Content ---------------------->
+    <section class="about-us"> 
+      <div class="row">  
+         <div class="about-col">
+            <h1> We  are  the  worlds  Largest kasama college of education </h1>
+           <p>  At kasama College, we believe in providing an immersive and transformative learning experience that equips students with the skills and knowledge necessary to thrive in the rapidly evolving tech industry.
+            Our college is committed to fostering innovation, creativity, and critical thinking among our students. Through a comprehensive curriculum, state-of-the-art facilities, and a team of dedicated faculty members, we strive to empower our students to become competent professionals and thought leaders in their chosen fields.
+            As you explore our website.</p>
+             <a href=" " class="hero-btn green-btn"> EXPLORE NOW  </a>
+         </div>
+         <div class="about-col">
+
+            <img src="images/about.jpg">
+         </div>
+
+      </div>
+    </section>
+
+	
+   <!-----------------  foooter    -------->
+
+   <section class="footer"> 
+
+      <h4>About  Us</h4>
+      <p> Welcome to Kasama College of Education! We pride ourselves on being a leading institution dedicated to shaping exceptional individuals for the dynamic world of computer science and digital communications. At Kasama College,<br> we believe in providing an immersive and transformative learning experience that equips students with the skills and knowledge necessary to thrive in the rapidly evolving tech industry.</p>
+      <div class="icons">   
+
+<a href="https://web.facebook.com/daniel.jere.39" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/danieljere7" target="_blank"><i class="fa fa-twitter"></i></a>
+<a href="https://www.instagram.com/danieljere3" target="_blank"><i class="fa fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/daniel-jere-b772a330/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+
+      </div>
+
+      <p>Made With <i class="fa fa-heart"></i>By martha munthali </i></p>
+   </section>
+    <!------------JavaScript for Toggle Menu--------------------->
+
+
+<script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){ 
+         navLinks.style.right = "0";
+      }
+      function hideMenu(){  
+         navLinks.style.right = "-200px";
+      }
+</script>
+ </body>
+
+
+</html>
